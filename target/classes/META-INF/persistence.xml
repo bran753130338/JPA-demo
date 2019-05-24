@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd"
+             version="2.2">
+    <persistence-unit name="jpa-1" transaction-type="RESOURCE_LOCAL">
+        <!--指定jpa的实现厂商 -->
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <!--添加持久化类-->
+        <class>com.bran.domain.User</class>
+        <!--属性 主要有数据源和对应扩展属性-->
+        <properties>
+            <!-- 数据库驱动 -->
+
+            <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"></property>
+            <!-- 数据库url -->
+            <property name="hibernate.connection.url" value="jdbc:mysql:///test"></property>
+            <!-- 数据库连接用户名 -->
+            <property name="hibernate.connection.username" value="root"></property>
+            <!-- 数据库连接密码 -->
+            <property name="hibernate.connection.password" value="root"></property>
+            <!-- 数据库方言
+                不同的数据库中,sql语法略有区别. 指定方言可以让hibernate框架在生成sql语句时.针对数据库的方言生成.
+                sql99标准: DDL 定义语言  库表的增删改查
+                          DCL 控制语言  事务 权限
+                          DML 操纵语言  增删改查
+                注意: MYSQL在选择方言时,请选择最短的方言.
+             -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL55Dialect"></property>
+
+
+            <!-- #hibernate.show_sql true
+                 #hibernate.format_sql true
+            -->
+            <!-- 将hibernate生成的sql语句打印到控制台 -->
+            <property name="hibernate.show_sql" value="true"></property>
+            <!-- 将hibernate生成的sql语句格式化(语法缩进) -->
+            <property name="hibernate.format_sql" value="true"></property>
+            <!--
+            ## auto schema export  自动导出表结构. 自动建表
+            #hibernate.hbm2ddl.auto create		自动建表.每次框架运行都会创建新的表.以前表将会被覆盖,表数据会丢失.(开发环境中测试使用)
+            #hibernate.hbm2ddl.auto create-drop 自动建表.每次框架运行结束都会将所有表删除.(开发环境中测试使用)
+            #hibernate.hbm2ddl.auto update(推荐使用) 自动生成表.如果已经存在不会再生成.如果表有变动.自动更新表(不会删除任何数据).
+            #hibernate.hbm2ddl.auto validate	校验.不自动生成表.每次启动会校验数据库中表是否正确.校验失败.
+             -->
+            <property name="hibernate.hbm2ddl.auto" value="update"></property>
+        </properties>
+    </persistence-unit>
+</persistence>
