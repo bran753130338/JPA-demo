@@ -1,16 +1,21 @@
 package com.bran.testjpa;
 
+import com.bran.dao.UserDao;
+import com.bran.dao.impl.UserDaoImpl;
+import com.bran.domain.User;
 import org.junit.Test;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.EntityTransaction;
-import javax.persistence.Persistence;
+
 
 public class JpaDemo {
 
     @Test
     public void fun1() {
+        UserDao userDao = new UserDaoImpl();
+        User user = new User();
+        user.setName("吴亦凡");
+        user.setEmail("123456@example.com");
+        userDao.addUser(user);
 
 
     }

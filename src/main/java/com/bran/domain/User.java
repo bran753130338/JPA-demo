@@ -28,7 +28,7 @@ import javax.persistence.*;
 @Table(name = "jpa_user")
 public class User {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "usr_id")
     private Integer id; //主键策略
 
