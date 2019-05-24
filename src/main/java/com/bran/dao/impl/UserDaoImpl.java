@@ -2,6 +2,7 @@ package com.bran.dao.impl;
 
 import com.bran.dao.UserDao;
 import com.bran.domain.User;
+import com.bran.utils.JPAUtils;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -34,7 +35,12 @@ public class UserDaoImpl implements UserDao {
     }
 
     @Override
-    public User getUser(String name) {
-        return null;
+    public User findById(Integer id) {
+        EntityManager entityManager = JPAUtils.getEntityManager();
+        User user = entityManager.find(User.class, id);
+        entityManager.close();
+        return user;
     }
+
+
 }
