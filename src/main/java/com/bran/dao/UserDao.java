@@ -9,5 +9,10 @@ public interface UserDao {
     //通过id查找用户
     User findById(Integer id);
 
+    //更新用户名称
+    User updateUser(Integer id,String name);
+
+    //删除用户
+    void deleteUser(Integer id);
 
 }

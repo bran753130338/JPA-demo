@@ -21,9 +21,24 @@ public class JpaDemo {
 
     //查找用户测试
     @Test
-    public void fun2(){
+    public void fun2() {
         UserDao userDao = new UserDaoImpl();
         User user = userDao.findById(1);
         System.out.println(user);
+    }
+
+    //修改用户信息
+    @Test
+    public void fun3() {
+        UserDao userDao = new UserDaoImpl();
+        User user = userDao.updateUser(1, "张帅");
+        System.out.println(user);
+    }
+
+    //删除用户信息
+    @Test
+    public void fun4(){
+        UserDao userDao = new UserDaoImpl();
+        userDao.deleteUser(1);
     }
 }
