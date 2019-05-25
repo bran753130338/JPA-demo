@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b712a710-171e-4491-9c6f-4fd95d0b0d74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7f0d6c3f-444a-4e43-bf8e-79a2e9a8802e.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ce593787-3eb1-4535-ac35-f6b5bddbf29a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d59d764b-bd4d-4a86-87ec-43ae098756de.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dde44877-1b09-4235-993c-2049abdb9a67.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/JPA学习笔记.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bran/testjpa/JPQLDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bran/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bran/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bran/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bran/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bran/utils/JPAUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bran/utils/JPAUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bran/testjpa/JpaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bran/testjpa/JpaDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bran/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bran/dao/UserDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/bran/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bran/dao/impl/UserDaoImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -67,26 +60,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bran/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bran/dao/impl/UserDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            <state relative-caret-position="357">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bran/testjpa/JpaDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/JPA学习笔记.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-179">
-              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="20" />
+            <state relative-caret-position="357">
+              <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bran/testjpa/JPQLDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bran/domain/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="34" column="11" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,8 +97,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bran/testjpa/JpaDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-179">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -122,9 +131,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bran/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bran/utils/JPAUtils.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bran/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/bran/testjpa/JpaDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bran/dao/impl/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/JPA学习笔记.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bran/testjpa/JpaDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bran/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bran/testjpa/JPQLDemo.java" />
       </list>
     </option>
   </component>
@@ -234,7 +245,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bran" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jpa_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jpa_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jpa_test" type="b2602c69:ProjectViewProjectNode" />
@@ -269,7 +287,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558798145747" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558800618729" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -296,7 +314,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JpaDemo.fun1">
+  <component name="RunManager" selected="JUnit.JPQLDemo.fun1">
+    <configuration name="JPQLDemo.fun1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bran.testjpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bran.testjpa" />
+      <option name="MAIN_CLASS_NAME" value="com.bran.testjpa.JPQLDemo" />
+      <option name="METHOD_NAME" value="fun1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JpaDemo.fun1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa_test" />
       <extension name="coverage">
@@ -363,6 +397,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JPQLDemo.fun1" />
         <item itemvalue="JUnit.JpaDemo.fun1" />
         <item itemvalue="JUnit.JpaDemo.fun4" />
         <item itemvalue="JUnit.JpaDemo.fun3" />
@@ -383,7 +418,7 @@
       <workItem from="1558681869532" duration="5878000" />
       <workItem from="1558700764659" duration="6972000" />
       <workItem from="1558795156259" duration="1137000" />
-      <workItem from="1558796697574" duration="1440000" />
+      <workItem from="1558796697574" duration="3848000" />
     </task>
     <task id="LOCAL-00001" summary="使用JPAUtils工具类">
       <created>1558705871611</created>
@@ -406,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558707118585</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="使用JPA进行增删改查">
+      <created>1558798232757</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558798232757</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -437,15 +479,18 @@
     <history-entry file="JpaDemo_fun1 - 2019.05.25 at 23h 25m 50s.xml">
       <configuration name="JpaDemo.fun1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JpaDemo_fun1 - 2019.05.25 at 23h 54m 47s.xml">
+      <configuration name="JpaDemo.fun1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15427000" />
+    <option name="totallyTimeSpent" value="17835000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23481782" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23481782" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -487,7 +532,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="使用JPAUtils工具类" />
     <MESSAGE value="使用JPA操作数据库" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用JPA操作数据库" />
+    <MESSAGE value="使用JPA进行增删改查" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用JPA进行增删改查" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/package-info.java" />
@@ -517,16 +563,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bran/testjpa/TestJpa.java" />
     <entry file="das://d59d764b-bd4d-4a86-87ec-43ae098756de/schema/test/table/jpa_user" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bran/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -556,13 +592,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bran/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://8c2e50d3-e4a3-486d-b8d9-ca62a09b6fb1/schema/test/table/jpa_user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -573,17 +602,58 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bran/testjpa/JpaDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-179">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="20" />
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bran/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="34" column="11" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/JPA学习笔记.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bran/dao/impl/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        <state relative-caret-position="-827">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bran/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2-sources.jar!/javax/persistence/EntityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107">
+          <caret line="558" column="17" selection-start-line="558" selection-start-column="17" selection-end-line="558" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bran/testjpa/JPQLDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
         </state>
       </provider>
     </entry>

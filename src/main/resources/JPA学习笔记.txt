@@ -1,0 +1,18 @@
+JPA（Java Persistence API的简称）
+
+注解方式（Hibernate是JPA的一种实现）
+
+注解ORM映射
+    类和表关联：@Table + @Entity
+    行和对象关联[OID]：@Id + @GeneratedValue(strategy = GenerationType.AUTO)
+    字段和属性关联：@Column
+
+缓存
+    一级缓存：session级别
+    二级缓存：sessionFactory级别（多session共享）
+
+JPQL（Java Persistence Query Language简称）
+
+JPQL是一种与SQL非常相似的中间性和对象话查询语言，它最终会被编译成针对不同底层数据库的SQL查询
+从而屏蔽不同数据库的差异
+JPQL语言的语句可以是select语句、update语句或delete语句、它们都通过Query接口封装执行

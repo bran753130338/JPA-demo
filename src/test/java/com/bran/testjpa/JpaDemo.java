@@ -14,8 +14,8 @@ public class JpaDemo {
     public void fun1() {
         UserDao userDao = new UserDaoImpl();
         User user = new User();
-        user.setName("吴亦凡");
-        user.setEmail("123456@example.com");
+        user.setName("阿龙");
+        user.setEmail("1289754@example.com");
         userDao.addUser(user);
     }
 
