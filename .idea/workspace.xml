@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b712a710-171e-4491-9c6f-4fd95d0b0d74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/JPA学习笔记.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bran/testjpa/JPQLDemo.java" afterDir="false" />
+    <list default="true" id="b712a710-171e-4491-9c6f-4fd95d0b0d74" name="Default Changelist" comment="使用JPQL查询">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bran/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bran/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bran/testjpa/JpaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bran/testjpa/JpaDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bran/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bran/dao/impl/UserDaoImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -78,8 +72,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/bran/testjpa/JPQLDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+            <state relative-caret-position="325">
+              <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -287,7 +284,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558800785826" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558800997744" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -418,7 +415,7 @@
       <workItem from="1558681869532" duration="5878000" />
       <workItem from="1558700764659" duration="6972000" />
       <workItem from="1558795156259" duration="1137000" />
-      <workItem from="1558796697574" duration="3848000" />
+      <workItem from="1558796697574" duration="4597000" />
     </task>
     <task id="LOCAL-00001" summary="使用JPAUtils工具类">
       <created>1558705871611</created>
@@ -448,13 +445,31 @@
       <option name="project" value="LOCAL" />
       <updated>1558798232757</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="使用JPQL查询">
+      <created>1558800741755</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558800741755</updated>
+    </task>
+    <task id="LOCAL-00006" summary="使用JPQL查询">
+      <created>1558800755830</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558800755830</updated>
+    </task>
+    <task id="LOCAL-00007" summary="使用JPQL查询">
+      <created>1558800811135</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558800811136</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JpaDemo_fun1 - 2019.05.24 at 21h 41m 08s.xml">
-      <configuration name="JpaDemo.fun1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="JpaDemo_fun1 - 2019.05.24 at 21h 43m 46s.xml">
       <configuration name="JpaDemo.fun1" configurationId="JUnit" />
     </history-entry>
@@ -482,13 +497,15 @@
     <history-entry file="JpaDemo_fun1 - 2019.05.25 at 23h 54m 47s.xml">
       <configuration name="JpaDemo.fun1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JPQLDemo_fun1 - 2019.05.26 at 00h 09m 35s.xml">
+      <configuration name="JPQLDemo.fun1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17835000" />
+    <option name="totallyTimeSpent" value="18584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23481782" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -533,7 +550,8 @@
     <MESSAGE value="使用JPAUtils工具类" />
     <MESSAGE value="使用JPA操作数据库" />
     <MESSAGE value="使用JPA进行增删改查" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用JPA进行增删改查" />
+    <MESSAGE value="使用JPQL查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用JPQL查询" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/package-info.java" />
@@ -652,8 +670,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bran/testjpa/JPQLDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        <state relative-caret-position="325">
+          <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
