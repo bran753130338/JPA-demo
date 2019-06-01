@@ -6,6 +6,7 @@ import com.bran.utils.JPAUtils;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
+import javax.persistence.TypedQuery;
 
 public class BookTypeDaoImpl implements BookTypeDao {
     @Override
@@ -21,4 +22,13 @@ public class BookTypeDaoImpl implements BookTypeDao {
         transaction.commit();
         entityManager.close();
     }
+
+    @Override
+    public BookType findById(Long typeId) {
+        EntityManager entityManager = JPAUtils.getEntityManager();
+        BookType bookType = entityManager.find(BookType.class, typeId);
+        entityManager.close();
+        return bookType;
+    }
+
 }
