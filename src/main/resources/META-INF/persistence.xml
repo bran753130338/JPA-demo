@@ -9,6 +9,8 @@
 
         <!--添加持久化类-->
         <class>com.bran.domain.User</class>
+        <class>com.bran.domain.BookInfo</class>
+        <class>com.bran.domain.BookType</class>
         <!--属性 主要有数据源和对应扩展属性-->
         <properties>
             <!-- 数据库驱动 -->
